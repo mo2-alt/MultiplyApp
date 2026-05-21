@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
    var num1 = findViewById<EditText>(R.id.editNum1)
    var num2 = findViewById<EditText>(R.id.editNum2)
    var btnCalc = findViewById<Button>(R.id.btnCalc)
-   var ans = findViewById<EditText>(R.id.txtAns)
-    
+   var txtans = findViewById<EditText>(R.id.txtAns)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
